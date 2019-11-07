@@ -1,10 +1,13 @@
 # Rumblebots Software Team Repository
 
+
+
+
 ## Members
   - Edimar
   - María
   - Bryan
-  - Ammarilys
+  - Amarilys
   - Jomar 
   
 ## To-Do List

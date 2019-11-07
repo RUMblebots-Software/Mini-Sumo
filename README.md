@@ -1,6 +1,7 @@
 # Rumblebots Software Team Repository
 
 
+<img src = "Images/RB_Logo.jpg" width = 200  >
 
 
 ## Members

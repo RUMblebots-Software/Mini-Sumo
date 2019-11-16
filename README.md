@@ -12,7 +12,7 @@
   
 ## To-Do List
   - [ ] Pre-programming phase
-     - [ ] Create 8 or Pseudocodes
+     - [ ] Create 8 or more Pseudocodes
      - [x] Create 8 or more Flowcharts
      - [x] Brainstorm new strategies
    

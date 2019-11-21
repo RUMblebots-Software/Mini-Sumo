@@ -56,7 +56,7 @@
    <img src = "Flowcharts/Coward.png" width = 400>
    </p>
   
-  - [ ] Pseudocode Created
+  - [x] Pseudocode Created
   - [ ] Developed
   
   <p align="center">

@@ -5,8 +5,6 @@
 
 ## Members
   - Edimar
-  - María
-  - Bryan
   - Amarilys
   - Jomar 
   

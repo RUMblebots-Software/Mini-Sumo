@@ -7,7 +7,11 @@
   - Edimar
   - Amarilys
   - Jomar 
+<<<<<<< HEAD
   - Paola
+=======
+  - Jean P. I.
+>>>>>>> 48ba24bd437f8b0334f81d729b8ac8e7e9c067db
   
 ## To-Do List
   - [ ] Pre-programming phase

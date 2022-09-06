@@ -9,6 +9,7 @@
   - Jomar 
   - Paola
   - Jean P. I.
+  - Jeriel
   
 ## To-Do List
   - [ ] Pre-programming phase

@@ -7,6 +7,7 @@
   - Edimar
   - Amarilys
   - Jomar 
+  - Jean P. I.
   
 ## To-Do List
   - [ ] Pre-programming phase

@@ -7,6 +7,7 @@
   - Edimar
   - Amarilys
   - Jomar 
+  - Paola
   
 ## To-Do List
   - [ ] Pre-programming phase

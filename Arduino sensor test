@@ -1,0 +1,50 @@
+#define LEFT_SENSOR A0
+#define LEFT_FRONT_SENSOR A2
+#define LEFT_ANGLE_SENSOR A1
+#define RIGHT_FRONT_SENSOR A3
+#define RIGHT_ANGLE_SENSOR A6
+#define RIGHT_SENSOR A7
+
+
+
+void setup(){
+  pinMode(LEFT_SENSOR,INPUT);
+  pinMode(LEFT_FRONT_SENSOR,INPUT);
+  pinMode(LEFT_ANGLE_SENSOR,INPUT); 
+  pinMode(RIGHT_FRONT_SENSOR,INPUT);
+  pinMode(RIGHT_ANGLE_SENSOR,INPUT);
+  pinMode(RIGHT_SENSOR,INPUT);
+ Serial.begin(38400); 
+ }
+
+ 
+float getDistance(int sensor){
+  return 65 * pow(analogRead(sensor) * 0.0048828125, -1.10);
+}
+void loop(){
+  Serial.print("Left Sensor: ");
+  Serial.print(getDistance(LEFT_SENSOR));
+  Serial.println("cm \n");  
+  
+  Serial.print("Left Front Sensor: ");
+  Serial.print(getDistance(LEFT_FRONT_SENSOR));
+  Serial.println("cm \n"); 
+  
+  Serial.print("Left Angle Sensor: ");
+  Serial.print(getDistance(LEFT_ANGLE_SENSOR));
+  Serial.println("cm \n"); 
+  
+  Serial.print("Right Front Sensor: ");
+  Serial.print(getDistance(RIGHT_FRONT_SENSOR));
+  Serial.println("cm \n"); 
+  
+  Serial.print("Right Angle Sensor: ");
+  Serial.print(getDistance(RIGHT_ANGLE_SENSOR));
+  Serial.println("cm \n"); 
+  
+  Serial.print("Right Sensor: ");
+  Serial.print(getDistance(RIGHT_SENSOR));
+  Serial.println("cm \n"); 
+
+  delay(500);
+  }
